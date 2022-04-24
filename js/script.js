@@ -12,7 +12,7 @@ let menuContainer = document.querySelector(".menu-container"),
     menuOpen.addEventListener('click',()=>{
 
         menuContainer.style.paddingRight =" 1.3rem";
-        main.style.paddingRight = '0.5rem';
+       
                 
         menuContainer.style.display = 'flex';
         document.body.style.overflow = 'hidden';
@@ -36,7 +36,7 @@ let menuContainer = document.querySelector(".menu-container"),
 
         document.body.style.overflow = 'visible';   
         menuContainer.style.paddingRight =" 0";  
-        main.style.paddingRight = '0rem';
+        
 
         navigation.style.opacity = '0';
 

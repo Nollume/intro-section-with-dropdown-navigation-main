@@ -326,9 +326,10 @@ button:active{
     
         padding: 1.2rem 1rem;
         width: 100%;
-        height:  -webkit-fit-content;
-        height:  -moz-fit-content;
-        height:  fit-content;
+        
+        min-height:  -webkit-fit-content;
+        min-height:  -moz-fit-content;
+        min-height:  fit-content;
         
         position: static;
     

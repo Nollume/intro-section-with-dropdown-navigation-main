@@ -54,7 +54,7 @@ body{
 
     padding: 1.2rem 1rem;
     width: 65%;
-    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     z-index: 999;
     top: 0;
